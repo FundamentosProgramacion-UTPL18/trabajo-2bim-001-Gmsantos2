@@ -18,7 +18,7 @@ public class EJERCICIO1 {
       int lista[];
       lista= new int [4];
       lista[0]=10;
-      for (int cont=0 ; cont<=(lista.length);cont ++){
+      for (int cont=0 ; cont<(lista.length);cont ++){
         System.out.println(lista[cont]);
       }
    }
