@@ -21,7 +21,7 @@ public class EJERCICIO3 {
             prom[cont]=promed;
         } 
         System.out.println("Tabla de calificaciones:\n Estudiante\t Programacion\tbase de datos\tpromedio");
-         for(int i=1; i<calif_bd.length;i++){
+         for(int i=0; i<calif_bd.length;i++){
              System.out.printf("%s%d\t%.2f\t\t%.2f\t\t%.2f\n","Estudiante#",i,calif_prog[i],calif_bd[i],prom[i]);
          }     
      }
